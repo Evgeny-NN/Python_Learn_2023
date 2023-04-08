@@ -1,6 +1,6 @@
 
 def load_data():
-    with open('C:\\Users\\Евгений\\Desktop\\Python_learn\\HomeWork_8_Tel_Book\\Phonebook.txt', 'r+', encoding='utf-8') as data:
+    with open('C:\\Users\\Евгений\\Desktop\\Python_Learn_1P\\Phonebook.txt', 'r+', encoding='utf-8') as data:
         text_data = data.read()
         path = input('Введите адрес файла: ')
         with open(path, 'r', encoding='utf-8') as data_2:
